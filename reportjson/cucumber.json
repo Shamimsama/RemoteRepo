@@ -1,0 +1,373 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "open browser",
+            "match": {
+              "location": "StepDefination.open_browser(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chrome"
+                ],
+                "line": 5
+              },
+              {
+                "cells": [
+                  "firefox"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "safari"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "nevigate to URl",
+            "match": {
+              "location": "StepDefination.nevigate_to_URl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "valid credential",
+        "description": "",
+        "id": "facebook-test;valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user type userId and password",
+            "match": {
+              "location": "StepDefination.user_type_userId_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDefination.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user should see his profile page",
+            "match": {
+              "location": "StepDefination.user_should_see_his_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "open browser",
+            "match": {
+              "location": "StepDefination.open_browser(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chrome"
+                ],
+                "line": 5
+              },
+              {
+                "cells": [
+                  "firefox"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "safari"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "nevigate to URl",
+            "match": {
+              "location": "StepDefination.nevigate_to_URl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "invalid credential",
+        "description": "",
+        "id": "facebook-test;invalid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user type \"user1\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 11
+                },
+                {
+                  "val": "1234",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefination.user_type_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDefination.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user should not see his profile page",
+            "match": {
+              "location": "StepDefination.user_should_not_see_his_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "open browser",
+            "match": {
+              "location": "StepDefination.open_browser(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chrome"
+                ],
+                "line": 5
+              },
+              {
+                "cells": [
+                  "firefox"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "safari"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "nevigate to URl",
+            "match": {
+              "location": "StepDefination.nevigate_to_URl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "invalid credential",
+        "description": "",
+        "id": "facebook-test;invalid-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user type \"user2\" and \"1235\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 11
+                },
+                {
+                  "val": "1235",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefination.user_type_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDefination.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user should not see his profile page",
+            "match": {
+              "location": "StepDefination.user_should_not_see_his_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Test",
+    "description": "",
+    "id": "facebook-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/Md Shamibur Rahman/eclipse-workspace/FacebookLogin/facebook.feature"
+  }
+]
